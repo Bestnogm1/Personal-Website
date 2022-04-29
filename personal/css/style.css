@@ -67,6 +67,11 @@ body{
 	width: 18px;
 	height: 18px;
 }
+
+.top-photo {
+	height: 600px;
+	width: 200px
+}
 p{
 	letter-spacing: 0;
 }
@@ -267,10 +272,11 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 }
 .deebo_fn__cv .cv__header .avatar{
 	margin-bottom: 20px;
+	padding-top: 2rem;
 }
 .deebo_fn__cv .cv__header .avatar img{
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 600px;
+	height: 200px;
 	border-radius: 5%;
 }
 .deebo_fn__cv .cv__header h3{
